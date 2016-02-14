@@ -6,7 +6,15 @@
  * version: 1.0
  */
 
-import java.util.Scanner;
+
+/**
+ * driverDFA
+ * This class takes in an arugment from the user in the
+ * main method and then calls testSolution from the class
+ * ManWolf with that argument. The user is then notified if
+ * their input is valid.
+ *
+ */
 
 public class driverDFA {
   public static void main(String[] args) throws java.lang.Exception {

@@ -6,6 +6,18 @@
  * version: 1.0
  */
 
+
+/**
+ * ManWolf
+ * This class is used to validate the path
+ * that user submits. It uses a for loop and
+ * a matrix to check the current state and the
+ * user input to determine what the next state
+ * will be. It returns True if the end state is
+ * Q_9 (sucessful state) and false if the state is
+ * Q_10 (failure state)
+ *
+ */
 public class ManWolf {
   // Defines all possible States
   private static final int Q_0 = 0;
@@ -33,7 +45,7 @@ public class ManWolf {
   /**
    * testSolution
    * This method takes in the user input as a String
-   * it then 
+   * it then determines if the user input is a vaild path
    * @param String in
    * @return boolean
    */
